@@ -11,7 +11,6 @@ package lecture3
 	f(n) = f(n-1) + n
  */
 
-// n = 0
 func nSum(n int) int {
 	dp := make([]int, n+1)
 	dp[0] = 0
