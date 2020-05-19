@@ -1,14 +1,16 @@
 package lecture3
 
 /*
-	Problem:
+
+Problem:
 	Find the sum of the first N numbers.
 
-	Objective function:
+Objective function:
 	f(i) is the sum of the first i elements.
 
-	Recurrence relation:
+Recurrence relation:
 	f(n) = f(n-1) + n
+
  */
 
 func nSum(n int) int {
